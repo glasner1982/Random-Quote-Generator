@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+h2 {
+	padding: 20px;
+	text-align: center;
+	font-size: 24px;
+}
+
+#quoteBox {
+	width: 700px;
+	/*height: 300px;*/
+	border-left: 5px solid skyblue;
+	border-radius: 5px;
+	background-color: lightgrey;
+	margin: auto;
+	padding: 40px 40px 40px 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+#quotation {
+	font-size: 60px;
+	color: deepskyblue;
+	display: block;
+	float: left;
+	padding-right: 20px;
+	line-height: 0.7;
+}
+
+#quote {
+	font-size: 20px;
+	display: block;
+}
+
+#btn {
+	width: 300px;
+	height: 50px;
+	margin: 10px auto;
+	display: block;
+	background-color: skyblue;
+	border: none;
+	font-size: 20px;
+}
